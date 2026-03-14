@@ -96,15 +96,6 @@ function LogoCard({ item, index }) {
           className="w-full h-full transition-transform duration-500 group-hover:scale-105"
           style={{ objectFit: 'cover', objectPosition: 'center', display: 'block' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0f]/50 to-[#0a0a0f]/20" />
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <div
-            className="px-4 py-2 font-display font-bold text-[#0a0a0f] text-xs tracking-widest uppercase pixel-corners"
-            style={{ background: item.color }}
-          >
-            View Logo
-          </div>
-        </div>
         <div
           className="absolute top-3 left-3 font-mono text-[9px] px-2 py-1 tracking-widest uppercase"
           style={{ background: `${item.color}25`, border: `1px solid ${item.color}50`, color: item.color }}
