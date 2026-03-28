@@ -24,21 +24,21 @@ const thumbnails = [
 
 const logos = [
   {
-    title: 'Crackex Network',
+    title: 'Planet SMP',
     type: 'Server Logo',
-    img: '/logoweb (1).png',
+    img: '/logo1.jpeg',
     color: '#00ff88',
   },
   {
-    title: 'River SMP',
+    title: 'Wanish SMP',
     type: 'Server Logo',
-    img: '/logoweb (2).png',
+    img: '/logo2.jpeg',
     color: '#a855f7',
   },
   {
-    title: 'Skyhigh SMP',
+    title: 'Harmas SMP',
     type: 'Server Logo',
-    img: '/logoweb (3).png',
+    img: '/logo4.jpeg',
     color: '#00e5ff',
   },
 ];
